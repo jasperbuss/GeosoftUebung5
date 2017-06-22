@@ -1,0 +1,145 @@
+/*Philipp Glahe, Matrikelnummer:
+  Jasper Buß, Matrikelnummer: 430423
+*/
+
+
+
+#Pretty{ /*assigning style preferences to all elements with id=Pretty */
+    font-variant: small-caps;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    margin-right: 10px;
+    margin-left: 50px;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 80px;
+
+}
+
+#vollcool{ /* designed button */
+  background-color: #4CAF50;
+    border: 2px solid #555555;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration:inherit;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+
+}
+
+
+body{ /* changing background color */
+  background-color: linen;
+}
+
+
+/*creating borders around list elements */
+table, th, td {
+    border: 1px solid black;
+
+}
+#bingo:active{
+  background-color: green;
+  display:block;
+}
+/*highlights a specific element*/
+span{
+  color:orange;
+}
+
+/*creates a fancy font-style for every 'p' tag*/
+p{
+  font-variant: small-caps;
+}
+#image{
+width: 30px;
+height: 20px
+}
+
+/*floats on the rigth side of the text*/
+img {
+
+    float: right;
+    margin: 0 0 5px 5px;
+}
+
+/* dropdown menu*/
+
+* {
+    box-sizing: border-box;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+/*wrapping content*/
+.wrapper {overflow: auto;}
+
+#main {margin-left: 4px;}
+
+#leftsidebar {
+    float: none;
+    width: auto;
+}
+
+#list {
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    background: #green;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    list-style-type: none;
+    margin: 4px;
+    padding: 2px;
+}
+
+@media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+}
